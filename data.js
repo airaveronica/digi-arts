@@ -92,7 +92,7 @@ export const data = [
       //copy paste for other members
       {
         name: "Carlo", // members name
-        imgURL: "GROUP2_MYSTERDISTRO_FORMAL/Carlo.jpg", // FOLDER NAME (GROUP)/File name.jpg (casesenstive)
+        imgURL: "GROUP2_MYSTERDISTRO_FORMAL/Carlo.jpg", // FOLDER NAME (GROUP)/File name.jpg (case senstive, no spaces / commas / or other special characters except for underscore)
       },
     ],
     teasers: ["GROUP2_MYSTERDISTRO_TEASER.mp4"], //teaser file name
