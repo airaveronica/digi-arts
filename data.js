@@ -42,42 +42,7 @@ export const data = [
     ],
     teasers: ["GROUP5_CHICBOUTIQUE_TEASER.mp4"],
   },
-  {
-    id: "envoir_craftee_fern",
-    name: "Envoir Craftee Fern",
-    tagline: "A Meadow in Your Own Home",
-    mission: "",
-    vision: "",
-    coreValues: "",
-    logoURL: "GROUP1_ENVOIRCRAFTEEFERN_LOGO.png",
-    members: [
-      {
-        name: "Figeurra, Frederick",
-        imgURL: "GROUP1_ENVOIRCRAFTEEFERN_FORMAL/FIGUERRA_Frederick.png",
-      },
-      {
-        name: "Hernandez, Christian",
-        imgURL: "GROUP1_ENVOIRCRAFTEEFERN_FORMAL/HERNANDEZ_Christan.png",
-      },
-      {
-        name: "Palaruan, Fleugene",
-        imgURL: "GROUP1_ENVOIRCRAFTEEFERN_FORMAL/PALARUAN_Fleugene.png",
-      },
-      {
-        name: "Rodriguez, Ehroz",
-        imgURL: "GROUP1_ENVOIRCRAFTEEFERN_FORMAL/RODRIGUEZ_Ehroz.png",
-      },
-      {
-        name: "Ruiviva, Elisha",
-        imgURL: "GROUP1_ENVOIRCRAFTEEFERN_FORMAL/RUIVIVAR_Elisha.png",
-      },
-      {
-        name: "Yecla, Caroline",
-        imgURL: "GROUP1_ENVOIRCRAFTEEFERN_FORMAL/YECLA_Caroline.png",
-      },
-    ],
-    teasers: ["GROUP1_ENVOIRCRAFTEEFERN_TEASER.mp4"],
-  },
+
   {
     id: "myster_distro",
     name: "Myster Distro",
@@ -113,5 +78,23 @@ export const data = [
       },
     ],
     teasers: ["GROUP2_MYSTERDISTRO_TEASER.mp4"],
+  },
+
+  {
+    id: "myster_distro", // company name lowercase separated by underscore (no space)
+    name: "Myster Distro", // company name
+    tagline: "A Meadow in Your Own Home",
+    mission: "",
+    vision: "",
+    coreValues: "",
+    logoURL: "GROUP2_MYSTERDISTRO_LOGO.PNG", // logo file name (case sensitive)
+    members: [
+      //copy paste for other members
+      {
+        name: "Carlo", // members name
+        imgURL: "GROUP2_MYSTERDISTRO_FORMAL/Carlo.jpg", // FOLDER NAME (GROUP)/File name.jpg (casesenstive)
+      },
+    ],
+    teasers: ["GROUP2_MYSTERDISTRO_TEASER.mp4"], //teaser file name
   },
 ];
