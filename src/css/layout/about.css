@@ -1,3 +1,14 @@
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+#about > h1 {
+  margin: 1rem 0;
+  font-size: 2.5rem;
+  color: var(--primary);
+}
 #about .main-content {
   display: flex;
   text-align: justify;
@@ -5,11 +16,11 @@
   /* height: 100%; */
 }
 
-#about section:first-child {
-  min-height: unset;
-  padding-top: 5rem;
+#about section {
+  /* padding-top: 5rem; */
   display: flex;
   align-items: center;
+  min-height: unset;
   justify-content: center;
 }
 
@@ -34,6 +45,9 @@
 }
 
 @media screen and (max-width: 800px) {
+  #about section:first-child {
+    padding-top: 1rem;
+  }
   #about .main-content {
     flex-direction: column;
   }

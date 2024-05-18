@@ -1,8 +1,8 @@
 header {
   width: 100dvw;
-  background: rgb(var(--primaryRGB), 0.7);
+  /* background: rgb(var(--primaryRGB), 0.7); */
   transform: translateX(-50%);
-  backdrop-filter: blur(25px);
+  backdrop-filter: blur(10px);
   position: fixed;
   top: 0;
   left: 50%;
@@ -29,10 +29,15 @@ ul#menu {
   list-style: none;
 }
 
-nav #logo {
+nav #logo,
+nav span {
   font-family: Arial;
   font-size: 2.5rem;
   margin-right: auto;
+}
+
+nav #logo span {
+  color: var(--primary);
 }
 
 nav nav {
@@ -76,7 +81,7 @@ a.nav-links::before {
   transition: all 400ms ease;
   content: "";
   position: absolute;
-  background: var(--secondary);
+  background: var(--primary);
   bottom: 0;
   width: 0%;
   height: 2px;
@@ -97,7 +102,7 @@ a.nav-links.active::before {
   ul#menu {
     transition: all 300ms ease-in-out;
     margin-top: 5.9rem;
-    background: rgb(var(--primaryRGB), 0.7);
+    /* background: rgb(var(--primaryRGB), 0.7); */
     backdrop-filter: blur(10px);
     padding: 1rem 0;
     width: var(--max-screen);

@@ -1,23 +1,14 @@
 import { initHeader } from "./components/header.js";
+import { initPageNavigator } from "./core/pageNavigator.js";
 
 export function initApp() {
   const body = document.body;
   const root = $("#root");
 
-  const [header, activeLinkHandler] = initHeader();
+  const [header, headerCB] = initHeader();
   body.insertBefore(header, body.firstChild);
-  activeLinkHandler();
+  headerCB();
 
-  const hamburger = $(".hamburger-menu");
-  const menu = $("#menu");
-  hamburger.addEventListener("click", () => {
-    menu.removeEventListener("click", toggleClassList);
-
-    menu.classList.toggle("show-menu");
-    menu.addEventListener("click", toggleClassList);
-  });
-
-  function toggleClassList() {
-    console.log(menu);
-  }
+  location.href = "#/";
+  initPageNavigator();
 }

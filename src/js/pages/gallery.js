@@ -1,13 +1,16 @@
 import { initCard } from "../components/card.js";
-import { data } from "../utils/data.js";
+import { data, URL } from "../../../data.js";
 
 export function initGallery() {
-  const gallery = `<main>
+  const cards = data.map((data) => initCard(data)).join("");
+
+  const gallery = `
+  <main>
     <section class="gallery">
-    ${data.map((data) => initCard(data)).join("")} 
-      </section>
-    </main>
-    <div id="company-details"></div>
+      ${cards} 
+    </section>
+  </main>
+  <div id="company-details"></div>
     `;
 
   return [gallery, addCardEvents];

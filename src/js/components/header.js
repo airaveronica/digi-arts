@@ -1,33 +1,32 @@
 import { getURL } from "../utils/UrlManager.js";
 
 export function initHeader() {
-  const header = createComponent({ tag: "header" });
+  const header = document.createElement("header");
   header.innerHTML = `
   <nav>
-  <h1 id="logo" >DigiArts</h1>
-    <ul id="menu">
-      <li><a class="nav-links active" href="#/"> HOME </a></li>
-      <li><a class="nav-links" href="#/gallery"> GALLERY </a></li>
-      <li><a class="nav-links" href="#/teasers"> TEASERS </a></li>
-      <li><a class="nav-links" href="#/about"> ABOUT </a></li>
-
-    </ul>
-   ${
-     // <form class="search-bar">
-     // <input type="text" placeholder="Search Digital Arts..." />
-     // <button class="primary-btn">Search</button>
-     // </form>
-     ""
-   }
-   <button class="hamburger-menu" ">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
+    <h1 id="logo" ><span>Digi</span>Arts</h1>
+      <ul id="menu">
+        <li><a class="nav-links active" href="#/"> HOME </a></li>
+        <li><a class="nav-links" href="#/gallery"> GALLERY </a></li>
+        <li><a class="nav-links" href="#/teasers"> TEASERS </a></li>
+        <li><a class="nav-links" href="#/about"> ABOUT </a></li>
+      </ul>
+    ${
+      // <form class="search-bar">
+      // <input type="text" placeholder="Search Digital Arts..." />
+      // <button class="primary-btn">Search</button>
+      // </form>
+      ""
+    }
+      <button class="hamburger-menu" ">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
   </nav>
 
 `;
-  return [header, activeLinkHandler];
+  return [header, initFunctionalities];
 }
 
 function activeLinkHandler() {
@@ -45,4 +44,18 @@ function activeLinkHandler() {
       }
     });
   });
+}
+
+function initFunctionalities() {
+  activeLinkHandler();
+  const hamburger = $(".hamburger-menu");
+  const menu = $("#menu");
+  hamburger.addEventListener("click", () => {
+    menu.classList.toggle("show-menu");
+    menu.addEventListener("click", toggleClassList);
+  });
+
+  function toggleClassList() {
+    console.log(menu);
+  }
 }

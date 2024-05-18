@@ -12,9 +12,10 @@
   padding: 1rem;
   border-radius: 1rem;
   align-self: flex-start;
+  width: 30%;
   min-width: 320px;
-  width: 320px;
-  flex-grow: 0;
+  max-width: 480px;
+  /* flex-grow: 1; */
 }
 
 #teasers #video-wrapper {
@@ -23,12 +24,12 @@
 }
 
 #teasers picture {
+  position: absolute;
   background-color: rgba(var(--secondaryRGB), 0.7);
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  position: absolute;
   inset: 0;
   border-radius: 1rem;
   cursor: pointer;

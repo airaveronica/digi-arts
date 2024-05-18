@@ -1,4 +1,4 @@
-import { URL, data } from "../utils/data.js";
+import { data, URL } from "../../../data.js";
 
 export function initTeasers() {
   const companies = data
@@ -38,7 +38,6 @@ function initTeaserEvents() {
   $all("#video-container").forEach((wrapper) => {
     let pause = false;
     const videoWrapper = wrapper.childNodes[1];
-    console.log(videoWrapper);
     const video = videoWrapper.childNodes[1];
     const playButton = videoWrapper.childNodes[3];
     video.currentTime = 3;
