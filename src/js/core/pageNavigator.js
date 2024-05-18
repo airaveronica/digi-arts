@@ -14,7 +14,8 @@ function render() {
   const { baseParams, params } = getURL();
   // const prevContent = root.innerHTML;
   root.innerHTML = "";
-  document.body.style.backgroundImage = "";
+  // document.body.style.backgroundImage = "";
+
   $("#menu").classList.remove("show-menu");
 
   switch (baseParams) {
@@ -34,7 +35,11 @@ function render() {
       root.innerHTML = gallery;
 
       galleryCB();
+      document.body.style.overflowY = "scroll";
+
       if (params.length === 3) {
+        document.body.style.overflowY = "hidden";
+
         const details = $("#company-details");
         details.innerHTML += initDetails(params[2]);
         details.style.transform = "scale(1)";
