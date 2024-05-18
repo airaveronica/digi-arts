@@ -79,117 +79,39 @@ export const data = [
     teasers: ["GROUP1_ENVOIRCRAFTEEFERN_TEASER.mp4"],
   },
   {
-    id: "chiq_boutique",
-    name: "Chiq Boutique",
-    tagline: "From the lace, til’ the bows.",
-    mission:
-      "We aim to transform traditional beauty standards by offering innovative and environmentally-friendly accessory products that encourage the principles of reuse, reduction, and recycling. Enabling individuals to possess items that are not only visually appealing but also possess long-lasting quality.",
-    vision:
-      "We imagine a world where beauty and all its diverse manifestations are embraced and celebrated, empowering individuals to confidently embrace their unique ideas with fashion accessories.",
+    id: "myster_distro",
+    name: "Myster Distro",
+    tagline: "A Meadow in Your Own Home",
+    mission: "",
+    vision: "",
     coreValues: "",
-    logoURL: "GROUP5_CHICBOUTIQUE_LOGO.png",
+    logoURL: "GROUP2_MYSTERDISTRO_LOGO.PNG",
     members: [
       {
-        name: "Cortez",
-        imgURL: "GROUP5_CHICBOUTIQUE_FORMAL/CORTEZ_FORMAL_PIC.jpeg",
+        name: "Carlo",
+        imgURL: "GROUP2_MYSTERDISTRO_FORMAL/Carlo.jpg",
       },
       {
-        name: "Blancaflor",
-        imgURL: "GROUP5_CHICBOUTIQUE_FORMAL/BLANCAFLOR_FORMAL_PIC.jpeg",
+        name: "Elle",
+        imgURL: "GROUP2_MYSTERDISTRO_FORMAL/Elle.jpg",
       },
       {
-        name: "Cariaga",
-        imgURL: "GROUP5_CHICBOUTIQUE_FORMAL/CARIAGA_FORMAL_PIC.jpeg",
+        name: "Hanna",
+        imgURL: "GROUP2_MYSTERDISTRO_FORMAL/Hanna.PNG",
       },
       {
-        name: "Erena",
-        imgURL: "GROUP5_CHICBOUTIQUE_FORMAL/ERENA_FORMAL_PIC.jpeg",
+        name: "Randell",
+        imgURL: "GROUP2_MYSTERDISTRO_FORMAL/Randell.jpg",
       },
       {
-        name: "Saludar",
-        imgURL: "GROUP5_CHICBOUTIQUE_FORMAL/SALUDAR_FORMAL_PIC.jpg",
+        name: "Steph",
+        imgURL: "GROUP2_MYSTERDISTRO_FORMAL/Steph.jpg",
       },
       {
-        name: "Sanmillan",
-        imgURL: "GROUP5_CHICBOUTIQUE_FORMAL/SANMILLAN_FORMAL_PIC.jpg",
+        name: "Tyra",
+        imgURL: "GROUP2_MYSTERDISTRO_FORMAL/Tyra.jpg",
       },
     ],
-    teasers: ["GROUP5_CHICBOUTIQUE_TEASER.mp4"],
-  },
-  {
-    id: "chiq_boutique",
-    name: "Chiq Boutique",
-    tagline: "From the lace, til’ the bows.",
-    mission:
-      "We aim to transform traditional beauty standards by offering innovative and environmentally-friendly accessory products that encourage the principles of reuse, reduction, and recycling. Enabling individuals to possess items that are not only visually appealing but also possess long-lasting quality.",
-    vision:
-      "We imagine a world where beauty and all its diverse manifestations are embraced and celebrated, empowering individuals to confidently embrace their unique ideas with fashion accessories.",
-    coreValues: "",
-    logoURL: "GROUP5_CHICBOUTIQUE_LOGO.png",
-    members: [
-      {
-        name: "Cortez",
-        imgURL: "GROUP5_CHICBOUTIQUE_FORMAL/CORTEZ_FORMAL_PIC.jpeg",
-      },
-      {
-        name: "Blancaflor",
-        imgURL: "GROUP5_CHICBOUTIQUE_FORMAL/BLANCAFLOR_FORMAL_PIC.jpeg",
-      },
-      {
-        name: "Cariaga",
-        imgURL: "GROUP5_CHICBOUTIQUE_FORMAL/CARIAGA_FORMAL_PIC.jpeg",
-      },
-      {
-        name: "Erena",
-        imgURL: "GROUP5_CHICBOUTIQUE_FORMAL/ERENA_FORMAL_PIC.jpeg",
-      },
-      {
-        name: "Saludar",
-        imgURL: "GROUP5_CHICBOUTIQUE_FORMAL/SALUDAR_FORMAL_PIC.jpg",
-      },
-      {
-        name: "Sanmillan",
-        imgURL: "GROUP5_CHICBOUTIQUE_FORMAL/SANMILLAN_FORMAL_PIC.jpg",
-      },
-    ],
-    teasers: ["GROUP5_CHICBOUTIQUE_TEASER.mp4"],
-  },
-  {
-    id: "chiq_boutique",
-    name: "Chiq Boutique",
-    tagline: "From the lace, til’ the bows.",
-    mission:
-      "We aim to transform traditional beauty standards by offering innovative and environmentally-friendly accessory products that encourage the principles of reuse, reduction, and recycling. Enabling individuals to possess items that are not only visually appealing but also possess long-lasting quality.",
-    vision:
-      "We imagine a world where beauty and all its diverse manifestations are embraced and celebrated, empowering individuals to confidently embrace their unique ideas with fashion accessories.",
-    coreValues: "",
-    logoURL: "GROUP5_CHICBOUTIQUE_LOGO.png",
-    members: [
-      {
-        name: "Cortez",
-        imgURL: "GROUP5_CHICBOUTIQUE_FORMAL/CORTEZ_FORMAL_PIC.jpeg",
-      },
-      {
-        name: "Blancaflor",
-        imgURL: "GROUP5_CHICBOUTIQUE_FORMAL/BLANCAFLOR_FORMAL_PIC.jpeg",
-      },
-      {
-        name: "Cariaga",
-        imgURL: "GROUP5_CHICBOUTIQUE_FORMAL/CARIAGA_FORMAL_PIC.jpeg",
-      },
-      {
-        name: "Erena",
-        imgURL: "GROUP5_CHICBOUTIQUE_FORMAL/ERENA_FORMAL_PIC.jpeg",
-      },
-      {
-        name: "Saludar",
-        imgURL: "GROUP5_CHICBOUTIQUE_FORMAL/SALUDAR_FORMAL_PIC.jpg",
-      },
-      {
-        name: "Sanmillan",
-        imgURL: "GROUP5_CHICBOUTIQUE_FORMAL/SANMILLAN_FORMAL_PIC.jpg",
-      },
-    ],
-    teasers: ["GROUP5_CHICBOUTIQUE_TEASER.mp4"],
+    teasers: ["GROUP2_MYSTERDISTRO_TEASER.mp4"],
   },
 ];

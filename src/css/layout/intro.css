@@ -13,10 +13,6 @@ main .intro {
   gap: 1rem;
 }
 
-article * {
-  font-size: 1rem;
-}
-
 .intro article h1 em {
   position: relative;
   width: max-content;
