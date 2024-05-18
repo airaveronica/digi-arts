@@ -1,0 +1,15 @@
+.primary-btn {
+  background-color: var(--primary);
+  border: solid 1px var(--primary);
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: rgb(216, 112, 147, 0.8);
+}
+
+.secondary-btn {
+  background-color: transparent;
+  border: solid 1px var(--primary);
+  color: black;
+}

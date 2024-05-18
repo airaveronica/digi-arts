@@ -1,0 +1,77 @@
+:root {
+  --primary: #d87093;
+  --primaryRGB: 216, 112, 147;
+
+  --secondary: #f2c5cf;
+  --secondaryRGB: 242, 197, 207;
+
+  --text: #36455c;
+  --border: rgb(168, 168, 168);
+  --max-screen: clamp(0px, 100%, 1366px);
+  --sm: 420px;
+  --md: 768px;
+  --lg: 1024px;
+}
+
+/* --------- RESET -------------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+button {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  transition: all 200ms ease-in-out;
+}
+
+video {
+  border-radius: 1rem;
+}
+
+input,
+input:focus {
+  border: none;
+  outline: none;
+}
+em {
+  font-style: normal;
+}
+#root {
+  /* background: url("../public/assets/background.jpg") no-repeat center; */
+  /* background-size: cover; */
+}
+
+/* ------------ Base Style ------------------ */
+body {
+  background: var(--secondary) no-repeat center;
+  background-size: cover;
+  width: var(--max-screen);
+  margin: 0 auto;
+  padding: 6rem 3rem 0 3rem;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+section {
+  min-height: 100vh;
+  width: 100%;
+}
+
+#root > :first-child,
+section:first-child {
+  min-height: calc(100dvh - 6rem);
+}
+main {
+  width: 100%;
+}
