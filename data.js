@@ -53,7 +53,7 @@ export const data = [
     logoURL: "GROUP2_MYSTERDISTRO_LOGO.PNG",
     members: [
       {
-        name: "Carlo", h
+        name: "Carlo",
         imgURL: "GROUP2_MYSTERDISTRO_FORMAL/Carlo.jpg",
       },
       {
