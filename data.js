@@ -77,7 +77,7 @@ export const data = [
         imgURL: "GROUP2_MYSTERDISTRO_FORMAL/Tyra.jpg",
       },
     ],
-    teasers: ["GROUP2_MYSTERDISTRO_TEASER.mp4"],
+    teasers: [""],
   },
 
   // copy paste for other groups
