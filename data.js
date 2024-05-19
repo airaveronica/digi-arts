@@ -9,9 +9,9 @@ export const data = [
     name: "Chiq Boutique",
     tagline: "From the lace, til’ the bows.",
     mission:
-      "We aim to transform traditional beauty standards by offering innovative and environmentally-friendly accessory products that encourage the principles of reuse, reduction, and recycling. Enabling individuals to possess items that are not only visually appealing but also possess long-lasting quality.",
+      "Chic Boutique aims to transform traditional beauty standards by offering innovative and environmentally-friendly accessory products that encourage the principles of reuse, reduction, and recycling. Enabling individuals to possess items that are not only visually appealing but also possess long-lasting quality. The company is committed to minimizing the disposal of unused clothing by repurposing it through innovative means. Chic Boutique promotes the adoption of mindful practices by offering a wide range of fashionable and environmentally-friendly accessories for individuals to wear and style. The aim is to inspire people to repurpose their unused clothing into something fresh and innovative. Collectively, the company's objective is to establish a more environmentally friendly future for upcoming generations and fashion enthusiasts.",
     vision:
-      "We imagine a world where beauty and all its diverse manifestations are embraced and celebrated, empowering individuals to confidently embrace their unique ideas with fashion accessories.",
+      "The vision of Chic Boutique is to envision a world where beauty, in all its various forms, is embraced and celebrated, empowering individuals to confidently embrace their distinct ideas through fashion accessories. The company's objective is to create a future in which accessories serve not only as functional items to be utilized and stored but also as unused items that can be utilized and reused. The organization aims to be acknowledged as a proponent of the three (3) R's, establish a platform for our creations, and develop groundbreaking products that are in line with the organization's mission and core values. Chic Boutique aims to demonstrate the connection between innovation and sustainability while also offering aesthetic appeal.",
     coreValues: "",
     logoURL: "GROUP5_CHICBOUTIQUE_LOGO.png",
     members: [
