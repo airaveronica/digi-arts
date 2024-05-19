@@ -5,6 +5,8 @@
   --secondary: #f2c5cf;
   --secondaryRGB: 242, 197, 207;
 
+  --fs-base: 1rem;
+
   --text: #36455c;
   --border: rgb(168, 168, 168);
   --max-screen: clamp(0px, 100%, 1366px);
@@ -19,7 +21,7 @@
   margin: 0;
   padding: 0;
   font-family: "Times New Roman", Times, serif;
-  font-size: 1rem;
+  font-size: var(--fs-base);
   color: var(--text);
 }
 

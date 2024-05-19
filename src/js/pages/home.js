@@ -29,6 +29,6 @@ export function initHome() {
 }
 
 function cb() {
-  // document.body.style.backgroundImage =
-  //   "url(/src/public/assets/background.jpg)";
+  document.body.style.backgroundImage =
+    "url(/src/public/assets/background.jpg)";
 }

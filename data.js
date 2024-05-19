@@ -80,6 +80,7 @@ export const data = [
     teasers: ["GROUP2_MYSTERDISTRO_TEASER.mp4"],
   },
 
+  // copy paste for other groups
   {
     id: "myster_distro", // company name lowercase separated by underscore (no space)
     name: "Myster Distro", // company name
